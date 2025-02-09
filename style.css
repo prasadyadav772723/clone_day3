@@ -1,0 +1,25 @@
+table{
+    text-align: center; 
+    background-color: deepskyblue;
+}
+div{
+    font-style: oblique;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: grid;
+}
+@media(max-width:576px){
+    body{
+        background-color: pink;
+        text-align: center;
+        text-wrap:inherit ;
+    }
+    table{
+        text-align: center; 
+        background-color: deepskyblue;
+    }
+    div{
+        font-style: oblique;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        display: grid;
+    }
+}
